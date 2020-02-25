@@ -74,6 +74,12 @@ We're loading three packages today: the Tidyverse, Janitor and a new one, [Lubri
 
 ```{r}
 
+# install.packages('lubridate')
+
+library(lubridate)
+library(tidyverse)
+library(janitor)
+
 ```
 
 ## Load Data

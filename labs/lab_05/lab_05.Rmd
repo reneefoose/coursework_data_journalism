@@ -177,7 +177,9 @@ mingo %>%
 **Task**: Create a codeblock below and create a table that answers the following question: how many total pills were shipped to Mingo County each year between 2006 and 2012? In a comment, explain what the overall trend was during that period. 
 
 ```{r}
-
+mingo %>%
+group_by(transaction_year) %>%
+summarise(total_pills = sum(quantity))
 ```
 
 ## About Joins
@@ -246,7 +248,7 @@ Run the code below and have a look. It returns 3036 observations, which is less 
 It returned the countyfips code, which both shared.  It returned the city and state from both sides (labeling one .x and one .y). And it returned the pills average and population average. 
 
 ```{r}
-
+#joining pill population
 pills_population <- county_pills_per_year %>%
   inner_join(county_population_per_year, by="countyfips")
 

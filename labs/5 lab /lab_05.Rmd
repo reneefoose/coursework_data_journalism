@@ -1,0 +1,142 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
+There are 4 tasks on this assignment.  Marked as **Task** in red.  I would like the code for each task. 
+ 
+Packages 
+ 
+Using three packages: the Tidyverse, Janitor and Lubridate  
+ 
+**Task 1**: In the code block below, load the Tidyverse family of packages, the Janitor package, and the Lubridate package. Write the code below.
+
+```{r} 
+ 
+# install.packages('lubridate') 
+ 
+library(lubridate)
+library(tidyverse)
+library(janitor) 
+ 
+``` 
+ 
+## Load Data 
+ 
+For this exercise, we will be working with subsets of the DEA's ARCOS database, which documented shipments of 76 billion opioid pills between 2006 and 2012, during the peak of the opioid epidemic. First, we will be working with a subset of shipments to Mingo County, West Virginia, which was flooded with hydrocodone and oxycodone during that period.  We will be loading additional data below.  
+ 
+The data was obtained after a lengthy legal battle by the Washington Post and the Charleston Gazette-Mail, and released by the Washington Post in raw and aggregated form. [Washington Post "Digging into the DEA's pain pill database" page](https://www.washingtonpost.com/graphics/2019/investigations/dea-pain-pilldatabase/). 
+ 
+A data dictionary is available here: [ARCOS Registrant Handbook](https://www.deadiversion.usdoj.gov/arcos/handbook/full.pdf). 
+ 
+```{r} 
+ 
+# Load data and store it as an object called Mingo 
+ 
+mingo <- read_tsv("data/arcos-wv-mingo-54059-itemized.tsv") 
+ 
+``` 
+
+## Examine the Data 
+ 
+**Task 2**: Use glimpse() and View() to get a sense of the data.     Write the code to do both of these tasks. 
+```{r} 
+ 
+# glimse and view function to get sense of the data  
+
+glimpse(mingo) 
+View(mingo)
+ 
+``` 
+ 
+## Cleaning 
+ 
+Before we start working with the data, execute the janitor function to make all of the columns lowercase.  If you can't remember how to do it, look at the documentation for the janitor package or look back at previous labs.    
+ 
+**Task 3**: Execute the clean_names function on mingo to make all of the column names lowercase.  Writer the code below. 
+ 
+```{r} 
+ 
+# Use the clean_names function in janitor to make all of the columns lowercase.  
+
+mingo <- clean_names(mingo) 
+``` 
+ 
+At the moment, the transaction date column is a bit unusable.  It's a string of characters in which month, day and year are mashed together.  This is how Jan. 4, 2007 is represented: "01042007".  In order to make use of it in analysis, we need to clean it up and get R to recognize it as a date.  
+ 
+This is one of the most common data cleaning problems data journalists run into.  
+ 
+Luckily, the [lubridate package](https://rawgit.com/rstudio/cheatsheets/master/lubridate.pdf) has a bunch of functions for cleaning and working with dates.  
+ 
+In the code block below, we are using the function mdy() to convert the gnarly transaction_date column into a real date that r can recognize.  By naming the new column we are creating the same thing as the old column inside of our mutate function, we are overwriting the old one.   
+ 
+```{r} 
+
+mingo <- mingo %>% 
+  mutate(transaction_date = mdy(transaction_date)) %>%  
+  select(transaction_date, everything())   
+
+``` 
+ 
+When we glimpse it, we can see the column type is now "date" which is a valid format R understands. 
+ 
+```{r}
+
+glimpse(mingo) 
+
+``` 
+ 
+And now that we have a valid date, we can do operations on it that make sense. This sorts it from oldest to newest transaction date.  
+ 
+```{r} 
+ 
+mingo %>%
+  arrange(transaction_date) 
+ 
+``` 
+ 
+We can filter. This filters just for shipments on Halloween in 2006.  
+ 
+```{r} 
+ 
+mingo %>%
+  filter(transaction_date == as_date("2006-10-31")) 
+ 
+``` 
+ 
+We can also use lubridate functions to extract additional information from a valid date column.  
+ 
+This function extracts the year from our valid transaction date, and creates a new column called "transaction_year" to store it in.  
+ 
+```{r}
+mingo <- mingo %>%
+  mutate(transaction_year = year(transaction_date)) %>%
+  select(transaction_date, transaction_year, everything())    
+
+``` 
+ 
+And then we can group by transaction year and count the total number of shipments.  We see that the number of shipments spiked in 2008 and 2009, before falling off.   
+ 
+```{r} 
+
+mingo %>% 
+  group_by(transaction_year) %>% 
+  summarise(total_shipments = n()) 
+
+``` 
+ 
+**Task 4**: Create a code block below and create a table that answers the following question: how many total pills were shipped to Mingo County each year between 2006 and 2012? In a comment, explain what the overall trend was during that period. Write the code below. 
+ 
+```{r} 
+
+mingo %>%
+  group_by(transaction_year) %>%
+  summarise(total_pills = sum(quantity))
+
+ 
+``` 
+
+We can see the sharp upward trend from 2006 to 2008. After that, there was was a sharp decline from 2008 till 2010. From 2010, the total_pills shipped were constant. Perhaps the main reason behind this is because of a disease that lasted for around two years, causing immense demand initially and then stabilizing afterwards
+ 
+ 
+Save the R Markdown file as an .rmd file.   

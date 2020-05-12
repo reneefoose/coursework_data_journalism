@@ -1,0 +1,237 @@
+Academic Year,LSS Number,LSS Name,School Number,School Name,Students Tested,English Score Mean,Math Score Mean,Reading Score Mean,Science Score Mean,Composite Score Mean,Create Date
+2019,01,Allegany,0405,Fort Hill High,12,18,19,21,21,20,20200210
+2019,01,Allegany,0601,Center for Career & Technical Education,*,*,*,*,*,*,20200210
+2019,01,Allegany,0606,Allegany High,16,22,20,23,21,22,20200210
+2019,01,Allegany,2404,Mountain Ridge High School,23,21,21,23,23,22,20200210
+2019,01,Allegany,A,All Allegany Schools,52,21,20,22,22,21,20200210
+2019,02,Anne Arundel,1033,Glen Burnie High,349,15,17,17,17,17,20200210
+2019,02,Anne Arundel,1323,North County High,423,16,17,18,18,18,20200210
+2019,02,Anne Arundel,2013,Severna Park High,402,24,24,26,25,25,20200210
+2019,02,Anne Arundel,2023,Northeast High,271,17,18,19,18,18,20200210
+2019,02,Anne Arundel,2233,Anne Arundel Evening High,48,14,16,15,15,15,20200210
+2019,02,Anne Arundel,2273,Chesapeake High,294,18,19,20,20,19,20200210
+2019,02,Anne Arundel,2363,Broadneck High,445,21,21,23,22,22,20200210
+2019,02,Anne Arundel,3013,Arundel High,447,18,19,20,20,20,20200210
+2019,02,Anne Arundel,3323,Meade High,370,16,17,18,18,17,20200210
+2019,02,Anne Arundel,3353,Old Mill High,465,17,18,19,18,18,20200210
+2019,02,Anne Arundel,4013,Annapolis High,329,18,19,20,20,19,20200210
+2019,02,Anne Arundel,4023,Southern High,217,18,19,20,19,19,20200210
+2019,02,Anne Arundel,4074,Phoenix Academy,10,12,14,14,13,13,20200210
+2019,02,Anne Arundel,4293,South River High,476,20,21,23,22,21,20200210
+2019,02,Anne Arundel,6223,Chesapeake Science Point,45,20,21,21,20,21,20200210
+2019,02,Anne Arundel,A,All Anne Arundel Schools,4591,18,19,20,20,20,20200210
+2019,03,Baltimore County,0172,Woodlawn High Center for Pre-Eng. Res.,*,*,*,*,*,*,20200210
+2019,03,Baltimore County,0174,Catonsville High,38,23,23,24,23,24,20200210
+2019,03,Baltimore County,0175,Western School of Technology & Env. Science,16,27,25,27,26,26,20200210
+2019,03,Baltimore County,0271,Milford Mill Academy,19,16,17,19,17,17,20200210
+2019,03,Baltimore County,0272,Randallstown High,15,19,19,19,19,19,20200210
+2019,03,Baltimore County,0371,Pikesville High,33,25,22,25,24,24,20200210
+2019,03,Baltimore County,0452,Owings Mills High,17,18,18,20,19,19,20200210
+2019,03,Baltimore County,0472,Franklin High,26,24,24,25,24,24,20200210
+2019,03,Baltimore County,0473,New Town High,15,17,18,17,17,17,20200210
+2019,03,Baltimore County,0772,Hereford High,51,25,24,26,23,25,20200210
+2019,03,Baltimore County,0872,Dulaney High,54,27,26,28,27,27,20200210
+2019,03,Baltimore County,0971,Towson High Law & Public Policy,59,26,25,27,25,26,20200210
+2019,03,Baltimore County,0972,Parkville High & Center for Math/Science,*,*,*,*,*,*,20200210
+2019,03,Baltimore County,0973,Loch Raven High,13,27,23,24,23,25,20200210
+2019,03,Baltimore County,0975,George W. Carver Center for Arts & Technology,22,25,24,26,23,25,20200210
+2019,03,Baltimore County,1171,Perry Hall High,17,22,21,22,22,22,20200210
+2019,03,Baltimore County,1272,Patapsco High & Center for Arts,*,*,*,*,*,*,20200210
+2019,03,Baltimore County,1273,Dundalk High,*,*,*,*,*,*,20200210
+2019,03,Baltimore County,1371,Lansdowne High & Academy of Finance,*,*,*,*,*,*,20200210
+2019,03,Baltimore County,1473,Overlea High & Academy of Finance,11,17,17,18,17,17,20200210
+2019,03,Baltimore County,1572,Kenwood High IB and Sports Science,10,14,16,16,16,16,20200210
+2019,03,Baltimore County,1573,Sparrows Point High,*,*,*,*,*,*,20200210
+2019,03,Baltimore County,1574,Chesapeake High,10,16,17,18,18,17,20200210
+2019,03,Baltimore County,1575,Eastern Technical High School,16,24,25,27,25,25,20200210
+2019,03,Baltimore County,A,All Baltimore County Schools,485,23,22,24,23,23,20200210
+2019,04,Calvert,0113,Patuxent High,40,21,22,24,22,22,20200210
+2019,04,Calvert,0213,Calvert High,48,22,22,24,24,23,20200210
+2019,04,Calvert,0217,Huntingtown High School,62,23,24,25,24,24,20200210
+2019,04,Calvert,0314,Northern High,73,22,23,24,23,23,20200210
+2019,04,Calvert,A,All Calvert Schools,223,22,23,24,23,23,20200210
+2019,05,Caroline,0703,North Caroline High School,14,22,22,26,23,23,20200210
+2019,05,Caroline,0801,Colonel Richardson High School,*,*,*,*,*,*,20200210
+2019,05,Caroline,A,All Caroline Schools,22,21,21,26,23,23,20200210
+2019,06,Carroll,0202,Francis Scott Key High,27,21,21,24,22,22,20200210
+2019,06,Carroll,0507,Liberty High,82,26,26,27,25,26,20200210
+2019,06,Carroll,0510,Century High,62,25,25,26,25,26,20200210
+2019,06,Carroll,0602,Manchester Valley High,32,22,23,24,22,23,20200210
+2019,06,Carroll,0704,Winters Mill High,18,22,23,23,22,23,20200210
+2019,06,Carroll,0707,Westminster High,47,24,24,24,24,24,20200210
+2019,06,Carroll,1401,South Carroll High,54,21,23,23,23,22,20200210
+2019,06,Carroll,A,All Carroll Schools,322,24,24,25,24,24,20200210
+2019,07,Cecil,0204,Bohemia Manor High,*,*,*,*,*,*,20200210
+2019,07,Cecil,0302,Elkton High,*,*,*,*,*,*,20200210
+2019,07,Cecil,0514,North East High,13,20,21,22,21,21,20200210
+2019,07,Cecil,0705,Perryville High,*,*,*,*,*,*,20200210
+2019,07,Cecil,0905,Rising Sun High,10,24,22,23,22,23,20200210
+2019,07,Cecil,A,All Cecil Schools,45,21,21,22,22,22,20200210
+2019,08,Charles,0106,La Plata High School,54,22,22,23,22,22,20200210
+2019,08,Charles,0108,Maurice J. McDonough High School,57,18,19,20,19,19,20200210
+2019,08,Charles,0605,Thomas Stone High School,68,17,18,18,18,18,20200210
+2019,08,Charles,0619,Westlake High School,85,17,18,19,19,18,20200210
+2019,08,Charles,0623,North Point High School,104,20,21,22,21,22,20200210
+2019,08,Charles,0802,St. Charles High School,84,16,16,18,17,17,20200210
+2019,08,Charles,1002,Henry E. Lackey High School,135,17,18,19,19,18,20200210
+2019,08,Charles,A,All Charles Schools,587,18,19,20,19,19,20200210
+2019,09,Dorchester,0207,North Dorchester High School,*,*,*,*,*,*,20200210
+2019,09,Dorchester,0713,Cambridge-South Dorchester High School,25,18,19,21,20,19,20200210
+2019,09,Dorchester,A,All Dorchester Schools,30,18,19,22,20,20,20200210
+2019,10,Frederick,0209,Frederick High,27,22,21,22,22,22,20200210
+2019,10,Frederick,0213,Gov. Thomas Johnson High,34,23,23,25,23,23,20200210
+2019,10,Frederick,0313,Middletown High,83,24,24,25,24,24,20200210
+2019,10,Frederick,0713,Urbana High,106,25,25,26,25,26,20200210
+2019,10,Frederick,0912,Linganore High,52,24,24,26,25,25,20200210
+2019,10,Frederick,0920,Oakdale High,64,26,26,26,25,26,20200210
+2019,10,Frederick,1509,Catoctin High,10,23,23,25,25,24,20200210
+2019,10,Frederick,2307,Tuscarora High,106,21,22,22,23,22,20200210
+2019,10,Frederick,2503,Brunswick High,27,26,24,26,25,26,20200210
+2019,10,Frederick,2610,Walkersville High,31,24,24,26,25,25,20200210
+2019,10,Frederick,A,All Frederick Schools,540,24,24,25,24,24,20200210
+2019,11,Garrett,0512,Northern Garrett High School,10,25,23,26,24,25,20200210
+2019,11,Garrett,0709,Southern Garrett High School,*,*,*,*,*,*,20200210
+2019,11,Garrett,A,All Garrett Schools,19,23,22,24,23,23,20200210
+2019,12,Harford,0176,Edgewood High,23,26,26,27,26,26,20200210
+2019,12,Harford,0181,Joppatowne High,*,*,*,*,*,*,20200210
+2019,12,Harford,0187,Patterson Mill High School,21,23,24,24,25,24,20200210
+2019,12,Harford,0270,Aberdeen High,32,24,26,26,27,26,20200210
+2019,12,Harford,0304,Harford Technical High,28,22,22,25,24,23,20200210
+2019,12,Harford,0373,Bel Air High,56,22,23,25,24,24,20200210
+2019,12,Harford,0382,Fallston High,28,26,26,27,26,27,20200210
+2019,12,Harford,0385,C. Milton Wright High,57,22,24,25,23,24,20200210
+2019,12,Harford,0580,North Harford High,36,22,24,24,24,24,20200210
+2019,12,Harford,0678,Havre de Grace High,12,23,23,22,23,23,20200210
+2019,12,Harford,A,All Harford Schools,294,23,24,25,24,24,20200210
+2019,13,Howard,0080,Homewood School,*,*,*,*,*,*,20200210
+2019,13,Howard,0203,Howard High,98,25,25,25,25,25,20200210
+2019,13,Howard,0207,Mount Hebron High,99,28,27,27,27,27,20200210
+2019,13,Howard,0214,Centennial High,86,27,27,28,26,27,20200210
+2019,13,Howard,0308,Marriotts Ridge High,99,25,25,26,26,26,20200210
+2019,13,Howard,0404,Glenelg High,114,25,25,25,26,26,20200210
+2019,13,Howard,0509,Atholton High,119,26,25,26,25,26,20200210
+2019,13,Howard,0516,Wilde Lake High,35,23,24,24,24,24,20200210
+2019,13,Howard,0524,River Hill High,78,29,29,28,28,29,20200210
+2019,13,Howard,0527,Reservoir High,120,24,24,25,24,24,20200210
+2019,13,Howard,0611,Oakland Mills High,32,20,21,23,22,21,20200210
+2019,13,Howard,0619,Hammond High,37,22,23,24,22,23,20200210
+2019,13,Howard,0623,Long Reach High,46,25,24,26,24,25,20200210
+2019,13,Howard,A,All Howard Schools,964,26,25,26,25,26,20200210
+2019,14,Kent,0301,Kent County High,*,*,*,*,*,*,20200210
+2019,14,Kent,A,All Kent Schools,*,*,*,*,*,*,20200210
+2019,15,Montgomery,0104,Seneca Valley High,28,18,20,21,20,20,20200210
+2019,15,Montgomery,0125,Quince Orchard High,201,24,23,24,24,24,20200210
+2019,15,Montgomery,0152,Poolesville High,127,29,28,30,28,29,20200210
+2019,15,Montgomery,0201,Richard Montgomery High,161,27,26,26,26,26,20200210
+2019,15,Montgomery,0230,Rockville High,76,23,22,24,23,23,20200210
+2019,15,Montgomery,0234,Thomas S. Wootton High,281,28,27,28,28,28,20200210
+2019,15,Montgomery,0246,Northwest High,171,24,24,25,24,24,20200210
+2019,15,Montgomery,0249,Clarksburg High,94,24,23,23,24,23,20200210
+2019,15,Montgomery,0315,Paint Branch High,84,21,20,22,21,21,20200210
+2019,15,Montgomery,0321,James Hubert Blake High,115,20,20,22,21,21,20200210
+2019,15,Montgomery,0406,Bethesda-Chevy Chase High,192,27,25,27,26,27,20200210
+2019,15,Montgomery,0424,Walter Johnson High,233,27,25,28,26,27,20200210
+2019,15,Montgomery,0427,Walt Whitman High,287,30,29,30,29,29,20200210
+2019,15,Montgomery,0503,Sherwood High,186,24,23,24,23,24,20200210
+2019,15,Montgomery,0510,Col. Zadok Magruder High,80,22,22,23,23,22,20200210
+2019,15,Montgomery,0545,Watkins Mill High,82,19,19,21,20,20,20200210
+2019,15,Montgomery,0551,Gaithersburg High,88,21,20,22,21,21,20200210
+2019,15,Montgomery,0602,Winston Churchill High,332,29,27,29,27,28,20200210
+2019,15,Montgomery,0701,Damascus High,52,25,25,25,24,25,20200210
+2019,15,Montgomery,0757,Montgomery Blair High,131,27,26,28,26,27,20200210
+2019,15,Montgomery,0782,Wheaton High,105,22,21,22,22,22,20200210
+2019,15,Montgomery,0789,Albert Einstein High,50,25,22,25,23,24,20200210
+2019,15,Montgomery,0796,Northwood High,52,22,21,23,22,22,20200210
+2019,15,Montgomery,0798,Springbrook High,58,20,21,21,21,21,20200210
+2019,15,Montgomery,0815,John F. Kennedy High,52,18,18,19,19,19,20200210
+2019,15,Montgomery,A,All Montgomery Schools,3318,25,24,26,25,25,20200210
+2019,16,Prince George's,0102,High Point High,19,17,19,18,19,18,20200210
+2019,16,Prince George's,0208,Bladensburg High,18,15,16,17,17,16,20200210
+2019,16,Prince George's,0511,Friendly High,23,17,17,17,17,17,20200210
+2019,16,Prince George's,0603,Suitland High,51,16,17,18,17,17,20200210
+2019,16,Prince George's,0908,Surrattsville High,*,*,*,*,*,*,20200210
+2019,16,Prince George's,1008,Laurel High,32,17,17,19,18,18,20200210
+2019,16,Prince George's,1015,Chesapeake Math and IT Public Charter,11,21,21,22,21,21,20200210
+2019,16,Prince George's,1103,Gwynn Park High,51,15,16,17,16,16,20200210
+2019,16,Prince George's,1209,Oxon Hill High,64,20,19,21,20,20,20200210
+2019,16,Prince George's,1217,Crossland High,16,15,16,16,16,16,20200210
+2019,16,Prince George's,1220,Potomac High,37,15,15,17,17,16,20200210
+2019,16,Prince George's,1314,Largo High,25,17,16,18,17,17,20200210
+2019,16,Prince George's,1327,Charles Herbert Flowers High,105,19,19,20,19,19,20200210
+2019,16,Prince George's,1350,Academy of Health Sciences at PGCC,54,22,22,23,22,22,20200210
+2019,16,Prince George's,1352,International High school @ Largo,*,*,*,*,*,*,20200210
+2019,16,Prince George's,1409,Duval High,28,18,18,19,19,19,20200210
+2019,16,Prince George's,1423,Bowie High,124,19,18,20,18,19,20200210
+2019,16,Prince George's,1502,Frederick Douglass High,43,18,17,18,18,18,20200210
+2019,16,Prince George's,1519,"Dr. Henry A. Wise, Jr. High",148,16,16,18,17,17,20200210
+2019,16,Prince George's,1708,Northwestern High,27,18,18,19,18,19,20200210
+2019,16,Prince George's,1732,International High School @ Langley Park,17,11,15,13,14,13,20200210
+2019,16,Prince George's,1806,Fairmont Heights High,21,15,16,17,17,16,20200210
+2019,16,Prince George's,1810,Central High,16,17,17,17,18,18,20200210
+2019,16,Prince George's,1909,Parkdale High,39,18,18,18,19,19,20200210
+2019,16,Prince George's,2114,Eleanor Roosevelt High,123,25,24,25,24,24,20200210
+2019,16,Prince George's,2142,College Park Academy,14,18,18,20,20,19,20200210
+2019,16,Prince George's,2213,Crossland Evening/Saturday High,*,*,*,*,*,*,20200210
+2019,16,Prince George's,A,All Prince George's Schools,1120,18,18,19,19,19,20200210
+2019,17,Queen Anne's,0301,Queen Anne's County High School,20,22,23,23,24,23,20200210
+2019,17,Queen Anne's,0405,Kent Island High School,36,22,23,23,22,23,20200210
+2019,17,Queen Anne's,A,All Queen Anne's Schools,56,22,23,23,23,23,20200210
+2019,18,Saint Mary's,0303,Chopticon High,96,22,24,25,24,24,20200210
+2019,18,Saint Mary's,0306,Leonardtown High,65,24,24,25,24,24,20200210
+2019,18,Saint Mary's,0801,Great Mills High,31,21,23,22,23,23,20200210
+2019,18,Saint Mary's,A,All Saint Mary's Schools,192,23,24,24,24,24,20200210
+2019,19,Somerset,0102,Washington Academy and High School,*,*,*,*,*,*,20200210
+2019,19,Somerset,0702,Crisfield Academy and High School,*,*,*,*,*,*,20200210
+2019,19,Somerset,A,All Somerset Schools,*,*,*,*,*,*,20200210
+2019,20,Talbot,0101,Easton High,30,23,22,24,23,23,20200210
+2019,20,Talbot,0202,St. Michaels Middle/High School,10,18,20,20,19,19,20200210
+2019,20,Talbot,A,All Talbot Schools,40,22,21,23,22,22,20200210
+2019,21,Washington,0040,Barbara Ingram School for the Arts,12,21,23,21,21,22,20200210
+2019,21,Washington,0204,Williamsport High,16,21,24,24,23,23,20200210
+2019,21,Washington,0301,South Hagerstown High,17,18,20,21,20,20,20200210
+2019,21,Washington,0305,Washington County Technical High,24,20,21,21,20,21,20200210
+2019,21,Washington,0403,Clear Spring High,*,*,*,*,*,*,20200210
+2019,21,Washington,0501,Hancock Middle Senior High,*,*,*,*,*,*,20200210
+2019,21,Washington,0601,Boonsboro High,14,24,24,23,23,23,20200210
+2019,21,Washington,0701,Smithsburg High,*,*,*,*,*,*,20200210
+2019,21,Washington,2101,North Hagerstown High,27,20,21,22,21,21,20200210
+2019,21,Washington,A,All Washington Schools,116,21,22,22,21,22,20200210
+2019,22,Wicomico,0102,Mardela Middle & High,*,*,*,*,*,*,20200210
+2019,22,Wicomico,0513,Wicomico High,*,*,*,*,*,*,20200210
+2019,22,Wicomico,1307,James M. Bennett High,53,25,24,25,24,24,20200210
+2019,22,Wicomico,1309,Parkside High,20,22,21,22,21,22,20200210
+2019,22,Wicomico,A,All Wicomico Schools,82,24,23,24,23,24,20200210
+2019,23,Worcester,0107,Pocomoke High,*,*,*,*,*,*,20200210
+2019,23,Worcester,0207,Snow Hill High,10,21,22,24,21,22,20200210
+2019,23,Worcester,0310,Stephen Decatur High,56,23,23,23,24,23,20200210
+2019,23,Worcester,A,All Worcester Schools,73,23,23,24,23,23,20200210
+2019,30,Baltimore City,0178,Excel Academy at Francis M. Wood High,*,*,*,*,*,*,20200210
+2019,30,Baltimore City,0239,Benjamin Franklin High School at Masonville Cove,*,*,*,*,*,*,20200210
+2019,30,Baltimore City,0325,ConneXions: A  Community Based Arts School,*,*,*,*,*,*,20200210
+2019,30,Baltimore City,0341,The Reach! Partnership School,*,*,*,*,*,*,20200210
+2019,30,Baltimore City,0348,Baltimore Leadership School for Young Women,13,17,15,17,17,17,20200210
+2019,30,Baltimore City,0362,Bard High School Early College,*,*,*,*,*,*,20200210
+2019,30,Baltimore City,0376,City Neighbors High,*,*,*,*,*,*,20200210
+2019,30,Baltimore City,0400,Edmondson-Westside High,23,13,15,15,15,15,20200210
+2019,30,Baltimore City,0403,Baltimore Polytechnic Institute,28,24,23,26,24,24,20200210
+2019,30,Baltimore City,0405,Patterson High,*,*,*,*,*,*,20200210
+2019,30,Baltimore City,0406,Forest Park High,*,*,*,*,*,*,20200210
+2019,30,Baltimore City,0407,Western High,18,17,17,18,17,17,20200210
+2019,30,Baltimore City,0410,Mergenthaler Vocational-Technical High,*,*,*,*,*,*,20200210
+2019,30,Baltimore City,0414,Paul Laurence Dunbar High,11,16,16,18,16,17,20200210
+2019,30,Baltimore City,0415,Baltimore School for the Arts,11,25,19,26,21,23,20200210
+2019,30,Baltimore City,0416,Digital Harbor High School,18,14,16,17,16,16,20200210
+2019,30,Baltimore City,0419,Reginald F. Lewis High,*,*,*,*,*,*,20200210
+2019,30,Baltimore City,0421,National Academy Foundation,*,*,*,*,*,*,20200210
+2019,30,Baltimore City,0422,New Era Academy,*,*,*,*,*,*,20200210
+2019,30,Baltimore City,0429,Vivien T. Thomas Medical Arts Academy,*,*,*,*,*,*,20200210
+2019,30,Baltimore City,0430,Augusta Fells Savage Institute of Visual Arts,*,*,*,*,*,*,20200210
+2019,30,Baltimore City,0432,Coppin Academy,*,*,*,*,*,*,20200210
+2019,30,Baltimore City,0433,Renaissance Academy,*,*,*,*,*,*,20200210
+2019,30,Baltimore City,0450,Frederick Douglass High,*,*,*,*,*,*,20200210
+2019,30,Baltimore City,0454,Carver Vocational-Technical High,*,*,*,*,*,*,20200210
+2019,30,Baltimore City,0480,Baltimore City College,17,20,20,22,20,21,20200210
+2019,30,Baltimore City,A,All Baltimore City Schools,206,17,17,18,17,18,20200210
+2019,32,SEED,1000,The Seed School of Maryland,32,15,16,15,15,16,20200210
+2019,32,SEED,A,All SEED Schools,32,15,16,15,15,16,20200210
+2019,A,State,A,All Maryland Schools,13422,21,21,23,22,22,20200210

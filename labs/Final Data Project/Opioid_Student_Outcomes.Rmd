@@ -1,31 +1,7 @@
 ---
-title: "Foose_Final_DataProj_2020"
+title: "RFoose_Final_DataProj_2020"
 output: html_document
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
 ```{r}
 #The goal of this data project is to compare opioid pills sent to geographical attendance areas of both high and low performing school districts in Maryland and to compare student outcomes -- performance of math and reading on fourth grade students.  A second analysis will be to introudce teacher level experience for each school in the geographical area to determine if the level (years of experience and degree 'bachelor or masters').  The latter analysis would be a first glance review for deeper analysis potentially in a different study. 
@@ -310,6 +286,42 @@ ggplot(maryland_2012) +
 ```{r}
 
 # Now I want to add in the education data - BUT this is a source of frustration.  I am not sure how to exactly flush this out.... I would like to sit in class and work with Sean.  I may be doing too much and need to focus my question more directly.  
+
+```
+
+
+```{r}
+#import this package to open xlsx files
+library(openxlsx)
+
+#load our relevant files
+file1 = read.csv("file 1.csv")
+file2 = read.csv("file2.csv")
+file3 = read.xlsx("File 3.xlsx")
+
+```
+```{r}
+#checking glimpse of the file before making changes
+#glimpse(file1)
+
+
+file1 = file1 %>%
+  clean_names() %>%
+  filter(lss_name == c("Howard", "Montgomery", "Prince George's", "Baltimore County", "Baltimore City", "Anne Arundel")) %>%
+  group_by(assessment, lss_name) %>%
+#  select(lss_name, assessment, grade) %>%
+  arrange(desc(assessment))
+
+```
+```{r}
+
+glimpse(file3)
+
+file3 = file3 %>%
+  clean_names() %>%
+  mutate(years_experience_yym = as.numeric(years_experience_yym)) %>%
+  filter(lss_name == c("Howard", "Montgomery", "Prince George's", "Baltimore County", "Baltimore City", "Anne Arundel")) %>%
+  arrange(years_experience_yym)
 
 ```
 
